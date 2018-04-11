@@ -20,7 +20,7 @@ function drawBuffer( width, height, context, buffer ) {
 
 function initAudio() {
     var audioRequest = new XMLHttpRequest();
-    audioRequest.open("GET", "sounds/fightclub.ogg", true);
+    audioRequest.open("GET", "sounds/breakbeat.wav", true);
     audioRequest.responseType = "arraybuffer";
     audioRequest.onload = function() {
         audioContext.decodeAudioData( audioRequest.response, 
